@@ -1,11 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include <AL/al.h>
 #include "music-man.hpp"
 
-void MusicMan::playmusic()
+MusicMan* music_man= NULL;
+
+void MusicMan::playmusic() // FIXME: Not Declared
 {
-    alutLoadWAVFile()
-}
+
+} // play_music
+
+MusicMan::MusicMan()
+{
+
+};
 
 
