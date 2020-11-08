@@ -6,6 +6,6 @@
 
 SDL_Surface* bitmap = SDL_LoadBMP("logo.png");
 
-init main(){
+int main(){
 
 }

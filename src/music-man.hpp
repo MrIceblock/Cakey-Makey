@@ -1,4 +1,4 @@
-Class MusicMan
+class MusicMan
 {
 private:
     bool initialized;
