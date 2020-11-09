@@ -7,6 +7,7 @@ class MusicMan
 {
 private:
     bool initialized;
+    void playmusic();
 };
 
 extern MusicMan* music_man;

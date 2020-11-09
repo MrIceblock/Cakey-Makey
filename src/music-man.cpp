@@ -4,12 +4,10 @@
 #include <AL/al.h>
 #include "music-man.hpp"
 
-MusicMan* music_man= NULL;
-
-void MusicMan::playmusic() // FIXME: Not Declared
+void MusicMan::playmusic()
 {
 
-} // play_music
+} // playmusic
 
 MusicMan::MusicMan()
 {
