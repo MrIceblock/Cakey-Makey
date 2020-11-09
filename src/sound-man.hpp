@@ -5,7 +5,7 @@
 
 class SoundMan{
 private:
-
+   ALuint source;
 public:
     SoundMan();
 };

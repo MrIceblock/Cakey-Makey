@@ -5,5 +5,5 @@
 
 SoundMan::SoundMan()
 {
-
+    alGenSources(1, &source);
 }
