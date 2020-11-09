@@ -3,11 +3,12 @@
 
 #include <thread>
 
-class MusicMan
-{
+class MusicMan{
 private:
     bool initialized;
     void playmusic();
+public:
+    MusicMan();
 };
 
 extern MusicMan* music_man;

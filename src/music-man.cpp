@@ -12,6 +12,6 @@ void MusicMan::playmusic()
 MusicMan::MusicMan()
 {
 
-};
+}
 
 
