@@ -7,7 +7,7 @@
 class SoundMan{
 private:
    ALuint source;
-   void   Play(path my_path,( CM_Sound ));
+   //void   Play(path my_path,( CM_Sound ));
 public:
     SoundMan();
 };

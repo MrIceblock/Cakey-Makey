@@ -5,10 +5,10 @@
 
 #include "sound-man.hpp"
 
-void SoundMan::Play(const char CM_File)
-{
-    alutCreateBufferFromFile(&CM_File);
-}
+// void SoundMan::Play(const char CM_File)
+//{
+    // alutCreateBufferFromFile(&CM_File);
+//}
 
 SoundMan::SoundMan()
 {
