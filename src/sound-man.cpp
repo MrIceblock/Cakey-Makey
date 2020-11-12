@@ -3,10 +3,15 @@
 
 #include "sound-man.hpp"
 
-// void SoundMan::Play(const char CM_File)
-//{
-    // alutCreateBufferFromFile(&CM_File);
-//}
+void SoundMan::Load()
+{
+    alGenBuffers(1, &wav);
+}
+
+void SoundMan::Play(const std::string CM_File)
+{
+    alSourcei(source, AL_BUFFER, wav);
+}
 
 SoundMan::SoundMan()
 {

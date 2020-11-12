@@ -7,7 +7,9 @@
 class SoundMan{
 private:
    ALuint source;
-   //void   Play(path my_path,( CM_Sound ));
+   ALuint wav;
+   void   Load();
+   void   Play(const std::string CM_File);
 public:
     SoundMan();
 };
