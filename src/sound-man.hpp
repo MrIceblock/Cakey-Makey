@@ -9,7 +9,7 @@ private:
    ALuint source;
    ALuint wav;
    void   Load();
-   void   Play(const std::string CM_File);
+   void   PlaySound(ALuint wav);
 public:
     SoundMan();
 };

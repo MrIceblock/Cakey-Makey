@@ -8,10 +8,11 @@ void SoundMan::Load()
     alGenBuffers(1, &wav);
 }
 
-void SoundMan::Play(const std::string CM_File)
-{
-    alSourcei(source, AL_BUFFER, wav);
-}
+//void SoundMan::PlaySound(ALuint wav)
+//{
+    //alSourcei(source, AL_BUFFER, wav);
+    //alSourcePlay(source);
+//}
 
 SoundMan::SoundMan()
 {
